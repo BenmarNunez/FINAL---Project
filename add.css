@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url(pic.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: transparent;
+    border: 2px solid rgba(225, 255, 255, 2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+    color: aliceblue;
+  }
+  
+  h4 {
+    font-size: 35px;
+    height: 70px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-top: 20px;
+  }
+  
+  input[type="name"],
+  input[type="text"],
+  input[type="number"] {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  .btn {
+    display: block;
+    width: 32%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4437b3;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #100855;
+  }
+  .link_primary {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .link_primary:hover {
+    color: #000000;
+  }

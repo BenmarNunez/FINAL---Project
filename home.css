@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    background: url(pic.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    margin-top: 200px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+  }
+  
+  a {
+    display: inline-block;
+    width: 380px;
+    margin: 30px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 40px;
+    box-shadow:  0 0 10px rgba(0, 0, 0, 1);
+    background-color:rgb(16, 98, 125);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  a:hover {
+    background-color: rgb(5, 74, 97);
+  }
